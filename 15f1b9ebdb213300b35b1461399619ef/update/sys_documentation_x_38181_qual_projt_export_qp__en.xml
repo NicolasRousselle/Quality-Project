@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Export QP" language="en" table="x_38181_qual_projt_export_qp">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Export QP</label>
+            <language>en</language>
+            <name>x_38181_qual_projt_export_qp</name>
+            <plural>Export QPs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-20 11:19:15</sys_created_on>
+            <sys_id>2ea5d06f1bcd0110cd11cb74604bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Export QP</sys_name>
+            <sys_package display_value="Scrum Quality Project" source="x_38181_qual_projt">15f1b9ebdb213300b35b1461399619ef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Scrum Quality Project">15f1b9ebdb213300b35b1461399619ef</sys_scope>
+            <sys_update_name>sys_documentation_x_38181_qual_projt_export_qp__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-20 11:19:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

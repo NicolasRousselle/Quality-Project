@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_38181_qual_projt.GlobalQualityProjectUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GlobalQualityProjectUtils</name>
+        <script><![CDATA[var GlobalQualityProjectUtils = Class.create();
+GlobalQualityProjectUtils.prototype = {
+    initialize: function() {},
+
+    generateXMLFile: function(table,id,query) {
+        if (table != "") {
+            var request = new sn_ws.RESTMessageV2();
+            var instanceURL = gs.getProperty('glide.servlet.uri');
+			request.setEndpoint(instanceURL + table + '_list.do?XML&sysparm_query='+ query + table);
+            //request.setEndpoint(instanceURL + 'api/now/table/' + table);
+            request.setHttpMethod('GET');
+			
+            var user = 'api_qp';
+            var password = 'api_QP1234';
+
+            request.setBasicAuth(user, password);
+            request.setRequestHeader("Accept", "text/xml");
+            request.setRequestHeader('Content-Type', 'application/json');
+            request.setRequestBody("{}");
+			
+            var response = request.execute();
+			var time = new GlideDateTime().getDisplayValue();
+            var nom_fichier = table + "_" + time + ".xml";
+            //Create a Json File to attach to the previous Data Source with the content retrieved from the REST Call
+            var attachment = new Attachment();
+            var attachmentRec = attachment.write("x_38181_qual_projt_export_qp", id, nom_fichier, "application/json", response.getBody());
+			
+			return response.getBody();
+        }
+    },
+	
+	generateXMLFile_other: function(table,id,query) {
+        if (table != "") {
+            var request = new sn_ws.RESTMessageV2();
+            var instanceURL = gs.getProperty('glide.servlet.uri');
+			request.setEndpoint(instanceURL + table + '_list.do?XML&sysparm_query='+ query);
+            //request.setEndpoint(instanceURL + 'api/now/table/' + table);
+            request.setHttpMethod('GET');
+			
+            var user = 'api_qp';
+            var password = 'api_QP1234';
+
+            request.setBasicAuth(user, password);
+            request.setRequestHeader("Accept", "text/xml");
+            request.setRequestHeader('Content-Type', 'application/json');
+            request.setRequestBody("{}");
+			
+            var response = request.execute();
+			var time = new GlideDateTime().getDisplayValue();
+            var nom_fichier = table + "_" + time + ".xml";
+            //Create a Json File to attach to the previous Data Source with the content retrieved from the REST Call
+            var attachment = new Attachment();
+            var attachmentRec = attachment.write("x_38181_qual_projt_export_qp", id, nom_fichier, "application/json", response.getBody());
+			
+			return response.getBody();
+        }
+    },
+
+
+
+    type: 'GlobalQualityProjectUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-28 14:26:48</sys_created_on>
+        <sys_id>847db3b3db653300b35b146139961931</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>GlobalQualityProjectUtils</sys_name>
+        <sys_package display_value="Scrum Quality Project" source="x_38181_qual_projt">15f1b9ebdb213300b35b1461399619ef</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Scrum Quality Project">15f1b9ebdb213300b35b1461399619ef</sys_scope>
+        <sys_update_name>sys_script_include_847db3b3db653300b35b146139961931</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-20 13:13:10</sys_updated_on>
+    </sys_script_include>
+</record_update>

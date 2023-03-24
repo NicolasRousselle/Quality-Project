@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="comments_and_work_notes" label="Comments and Work notes" language="en" table="x_38181_qual_projt_test_card">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>comments_and_work_notes</element>
+            <help/>
+            <hint/>
+            <label>Comments and Work notes</label>
+            <language>en</language>
+            <name>x_38181_qual_projt_test_card</name>
+            <plural>Comments and Work notes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-10 18:09:19</sys_created_on>
+            <sys_id>c0a35ad81b450110cd11cb74604bcb7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Comments and Work notes</sys_name>
+            <sys_package display_value="Scrum Quality Project" source="x_38181_qual_projt">15f1b9ebdb213300b35b1461399619ef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Scrum Quality Project">15f1b9ebdb213300b35b1461399619ef</sys_scope>
+            <sys_update_name>sys_documentation_x_38181_qual_projt_test_card_comments_and_work_notes_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-10 18:09:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

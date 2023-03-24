@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Test Card follow-up">b96bf8c31b914d10cd11cb74604bcbec</legacy_page>
+        <name>PA Quality Project - New Tab 3</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-31 11:02:52</sys_created_on>
+        <sys_id>bd6bf0071b914d10cd11cb74604bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Quality Project - New Tab 3</sys_name>
+        <sys_package display_value="Scrum Quality Project" source="x_38181_qual_projt">15f1b9ebdb213300b35b1461399619ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scrum Quality Project">15f1b9ebdb213300b35b1461399619ef</sys_scope>
+        <sys_update_name>sys_grid_canvas_bd6bf0071b914d10cd11cb74604bcb05</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-31 11:02:52</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

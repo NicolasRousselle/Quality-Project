@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Quality Project">4c689d7b1b418110cd11cb74604bcb21</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>3</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-31 11:02:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f96bf0071b914d10cd11cb74604bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4c689d7b1b418110cd11cb74604bcb21</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Scrum Quality Project" source="x_38181_qual_projt">15f1b9ebdb213300b35b1461399619ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scrum Quality Project">15f1b9ebdb213300b35b1461399619ef</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_f96bf0071b914d10cd11cb74604bcb0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-31 11:02:52</sys_updated_on>
+        <tab display_value="Test Card follow-up">b16bf0071b914d10cd11cb74604bcb08</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Issue activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_38181_qual_projt_issue_activity.fields</name>
+        <read_roles/>
+        <suffix>x_38181_qual_projt</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 09:07:11</sys_created_on>
+        <sys_id>f1cac1b6db713300b35b14613996194a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>glide.ui.x_38181_qual_projt_issue_activity.fields</sys_name>
+        <sys_package display_value="Scrum Quality Project" source="x_38181_qual_projt">15f1b9ebdb213300b35b1461399619ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scrum Quality Project">15f1b9ebdb213300b35b1461399619ef</sys_scope>
+        <sys_update_name>sys_properties_f1cac1b6db713300b35b14613996194a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 17:52:48</sys_updated_on>
+        <type>string</type>
+        <value>short_description,state,priority,opened_by,assignment_group,assigned_to,sys_created_on,sys_updated_on,description,name,point,project,sprint,type,user_story,work_notes,*Email*,*Attachments*,comments</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=f1cac1b6db713300b35b14613996194a"/>
+</record_update>

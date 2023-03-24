@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="analysis_impact_on_deployment" label="Analysis - Impact on Deployment" language="en" table="x_38181_qual_projt_user_story">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>analysis_impact_on_deployment</element>
+            <help/>
+            <hint/>
+            <label>Analysis - Impact on Deployment</label>
+            <language>en</language>
+            <name>x_38181_qual_projt_user_story</name>
+            <plural>Analysis - Impact on Deployments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-28 08:30:26</sys_created_on>
+            <sys_id>fb0c2a7fdb213300b35b14613996192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Analysis - Impact on Deployment</sys_name>
+            <sys_package display_value="Scrum Quality Project" source="x_38181_qual_projt">15f1b9ebdb213300b35b1461399619ef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Scrum Quality Project">15f1b9ebdb213300b35b1461399619ef</sys_scope>
+            <sys_update_name>sys_documentation_x_38181_qual_projt_user_story_analysis_impact_on_deployment_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-28 08:30:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

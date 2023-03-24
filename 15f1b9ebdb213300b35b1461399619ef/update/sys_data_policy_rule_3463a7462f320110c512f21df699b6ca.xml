@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>evaluation_impact_on_maintenance</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-13 10:17:03</sys_created_on>
+        <sys_data_policy display_value="Committee info mandatory if customization">ac6363462f320110c512f21df699b6c9</sys_data_policy>
+        <sys_id>3463a7462f320110c512f21df699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>evaluation_impact_on_maintenance</sys_name>
+        <sys_package display_value="Scrum Quality Project" source="x_38181_qual_projt">15f1b9ebdb213300b35b1461399619ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scrum Quality Project">15f1b9ebdb213300b35b1461399619ef</sys_scope>
+        <sys_update_name>sys_data_policy_rule_3463a7462f320110c512f21df699b6ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-13 10:17:03</sys_updated_on>
+        <table>x_38181_qual_projt_user_story</table>
+    </sys_data_policy_rule>
+</record_update>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Quality Project">af12b5a3db613300b35b1461399619fb</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage display_value="Quality Project Overview">4cbada4bdb713300b35b146139961979</homepage>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Reporting</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/$pa_dashboard.do?sysparm_dashboard=4c689d7b1b418110cd11cb74604bcb21&amp;sysparm_tab=7f689d7b1b418110cd11cb74604bcbed&amp;sysparm_cancelable=true&amp;sysparm_editable=undefined&amp;sysparm_active_panel=false</query>
+        <report/>
+        <roles>x_38181_qual_projt.customer,x_38181_qual_projt.integrator</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-04 08:09:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>973aaa8adb313300b35b14613996195d</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Reporting</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Scrum Quality Project" source="x_38181_qual_projt">15f1b9ebdb213300b35b1461399619ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scrum Quality Project">15f1b9ebdb213300b35b1461399619ef</sys_scope>
+        <sys_update_name>sys_app_module_973aaa8adb313300b35b14613996195d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-31 11:43:01</sys_updated_on>
+        <timeline_page/>
+        <title>Reporting</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

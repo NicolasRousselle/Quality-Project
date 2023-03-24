@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="comments" label="Additional comments" language="en" table="x_38181_qual_projt_issue">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <help/>
+            <hint/>
+            <label>Additional comments</label>
+            <language>en</language>
+            <name>x_38181_qual_projt_issue</name>
+            <plural>Additional comments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-10 17:30:56</sys_created_on>
+            <sys_id>39da4a901b450110cd11cb74604bcbc4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Additional comments</sys_name>
+            <sys_package display_value="Scrum Quality Project" source="x_38181_qual_projt">15f1b9ebdb213300b35b1461399619ef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Scrum Quality Project">15f1b9ebdb213300b35b1461399619ef</sys_scope>
+            <sys_update_name>sys_documentation_x_38181_qual_projt_issue_comments_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-10 17:31:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

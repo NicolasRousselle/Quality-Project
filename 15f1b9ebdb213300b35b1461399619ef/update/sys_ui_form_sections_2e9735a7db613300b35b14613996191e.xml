@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="2e9735a7db613300b35b14613996191e" sys_domain="global" table="x_38181_qual_projt_sprint" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-27 10:02:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>669731e7db613300b35b146139961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_38181_qual_projt_sprint" name="x_38181_qual_projt_sprint" sys_domain="global" view="Default view">2e9735a7db613300b35b14613996191e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_38181_qual_projt_sprint" sys_domain="global" view="Default view">e69731e7db613300b35b146139961992</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-27 10:02:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-27 10:02:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae9731e7db613300b35b146139961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_38181_qual_projt_sprint" name="x_38181_qual_projt_sprint" sys_domain="global" view="Default view">2e9735a7db613300b35b14613996191e</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_38181_qual_projt_sprint" sys_domain="global" view="Default view">2e9731e7db613300b35b146139961990</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-27 10:02:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_38181_qual_projt_sprint</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-27 10:02:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e9735a7db613300b35b14613996191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_38181_qual_projt_sprint</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Scrum Quality Project" source="x_38181_qual_projt">15f1b9ebdb213300b35b1461399619ef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Scrum Quality Project">15f1b9ebdb213300b35b1461399619ef</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2e9735a7db613300b35b14613996191e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-27 10:02:45</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
