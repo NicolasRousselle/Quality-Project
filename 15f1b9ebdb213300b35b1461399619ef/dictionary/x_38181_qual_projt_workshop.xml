@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f9fdf1191bc9c110cd11cb74604bcb5d" extends="x_38181_qual_projt_project" label="Workshop" max_length="40" name="x_38181_qual_projt_workshop" type="collection"/>
+</database>

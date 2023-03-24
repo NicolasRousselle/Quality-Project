@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="d1067527db613300b35b1461399619f1" extends="x_38181_qual_projt_project" label="Issue" max_length="40" name="x_38181_qual_projt_issue" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="type" dependent_on_field="type" label="Classification" max_length="32" name="classification" reference="x_38181_qual_projt_issue_type" reference_qual="active=true^dependantISNOTEMPTY^EQ" reference_qual_condition="active=true^dependantISNOTEMPTY^EQ" type="reference" use_dependent_field="true"/>
+        <element label="Additional comments" max_length="4000" name="comments" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" dependent="comments,work_notes" dependent_on_field="comments,work_notes" label="Comments and Work notes" max_length="4000" name="comments_and_work_notes" type="journal_list" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Opened by" max_length="32" name="opened_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Out of Test Period" max_length="40" name="out_of_test_period" type="boolean"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="High" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Moderate" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Low" sequence="400" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Sprint" max_length="32" name="sprint" reference="x_38181_qual_projt_sprint" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="user_story" dependent_on_field="user_story" label="Test Card" max_length="32" name="test_card" reference="x_38181_qual_projt_test_card" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Type" mandatory="true" max_length="40" name="type" reference="x_38181_qual_projt_issue_type" reference_qual="active=true^dependantISEMPTY^EQ" reference_qual_condition="active=true^dependantISEMPTY^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="User Story" mandatory="true" max_length="32" name="user_story" reference="x_38181_qual_projt_user_story" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="classification"/>
+        </index>
+        <index name="index4">
+            <element name="opened_by"/>
+        </index>
+        <index name="index5">
+            <element name="sprint"/>
+        </index>
+        <index name="index6">
+            <element name="test_card"/>
+        </index>
+        <index name="index7">
+            <element name="type"/>
+        </index>
+        <index name="index8">
+            <element name="user_story"/>
+        </index>
+    </element>
+</database>

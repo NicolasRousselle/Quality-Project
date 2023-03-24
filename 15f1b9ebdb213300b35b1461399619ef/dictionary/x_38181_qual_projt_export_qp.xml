@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3485106f1bcd0110cd11cb74604bcbbc" extends="x_38181_qual_projt_project" label="Export QP" max_length="40" name="x_38181_qual_projt_export_qp" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Done" max_length="40" name="done" read_only="true" type="boolean"/>
+    </element>
+</database>

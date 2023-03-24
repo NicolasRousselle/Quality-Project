@@ -4,6 +4,7 @@
         <angular_module/>
         <formatter>process_flow.xml</formatter>
         <name>User Stories Management</name>
+        <seismic_component/>
         <sys_class_name>sys_ui_formatter</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-14 13:12:16</sys_created_on>

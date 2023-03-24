@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2f22a52c1b014110cd11cb74604bcb00" extends="x_38181_qual_projt_project" label="Status" max_length="40" name="x_38181_qual_projt_status" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" hint="Process Flow interval :&#13;&#10;- Collection between 0 - 1000&#13;&#10;- Development between 1000 - 2000&#13;&#10;- UAT between 2000 - 3000&#13;&#10;- Production between 3000 - 4000" label="Order" mandatory="true" max_length="40" name="order" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Table" mandatory="true" max_length="32" name="table" reference="sys_db_object" reference_qual="sys_scope=15f1b9ebdb213300b35b1461399619ef^EQ" reference_qual_condition="sys_scope=15f1b9ebdb213300b35b1461399619ef^EQ" type="reference"/>
+        <index name="index">
+            <element name="table"/>
+        </index>
+    </element>
+</database>

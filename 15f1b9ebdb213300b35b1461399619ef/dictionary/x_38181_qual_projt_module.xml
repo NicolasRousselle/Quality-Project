@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="58be79191bc9c110cd11cb74604bcb0e" extends="x_38181_qual_projt_project" label="Module" max_length="40" name="x_38181_qual_projt_module" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Theme" mandatory="true" max_length="32" name="theme" reference="x_38181_qual_projt_theme" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="theme"/>
+        </index>
+    </element>
+</database>

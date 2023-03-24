@@ -27,7 +27,7 @@
         <chart_title_y_position>0</chart_title_y_position>
         <chart_width>600</chart_width>
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
-        <color_palette display_value="NY Purples dark to light (8)">dee5d42137539bc6f869354452eda7ec</color_palette>
+        <color_palette display_value="Sequential - Purples dark to light (8)">dee5d42137539bc6f869354452eda7ec</color_palette>
         <colors/>
         <column/>
         <compute_percent>aggregate</compute_percent>

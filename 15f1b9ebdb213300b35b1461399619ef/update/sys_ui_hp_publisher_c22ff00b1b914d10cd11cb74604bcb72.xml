@@ -32,5 +32,6 @@
         <sys_updated_on>2022-01-31 11:20:21</sys_updated_on>
         <type>2</type>
         <ui_control_type>4</ui_control_type>
+        <use_starts_with_on_search_keyword>false</use_starts_with_on_search_keyword>
     </sys_ui_hp_publisher>
 </record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b03809eb1b814110cd11cb74604bcb0e" extends="x_38181_qual_projt_project" label="Issue Type" max_length="40" name="x_38181_qual_projt_issue_type" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Dependant" max_length="32" name="dependant" reference="x_38181_qual_projt_issue_type" type="reference"/>
+        <index name="index">
+            <element name="dependant"/>
+        </index>
+    </element>
+</database>

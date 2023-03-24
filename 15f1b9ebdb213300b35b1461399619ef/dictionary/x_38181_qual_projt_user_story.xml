@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="fba5f567db613300b35b14613996198d" extends="x_38181_qual_projt_project" label="User Story" max_length="40" name="x_38181_qual_projt_user_story" type="collection">
+        <element label="Acceptance Criteria" mandatory="true" max_length="1000" name="acceptance_criteria" type="string"/>
+        <element label="Additional Information Required" max_length="1000" name="additional_information_required" type="string"/>
+        <element label="Analysis - Added Value" max_length="1000" name="analysis_added_value" type="string"/>
+        <element label="Analysis - Functional" max_length="1000" name="analysis_functional" type="string"/>
+        <element label="Analysis - Impact on Deployment" max_length="1000" name="analysis_impact_on_deployment" type="string"/>
+        <element label="Analysis - Impact on Maintenance" max_length="1000" name="analysis_impact_on_maintenance" type="string"/>
+        <element label="Analysis - Impact on Other Process" max_length="1000" name="analysis_impact_on_other_process" type="string"/>
+        <element label="Analysis - Risk Not To Do" max_length="1000" name="analysis_risk_not_to_do" type="string"/>
+        <element label="Analysis - To Do Risk" max_length="1000" name="analysis_to_do_risk" type="string"/>
+        <element label="Analysis - Workload" max_length="1000" name="analysis_workload" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Additional comments" max_length="4000" name="comments" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" dependent="comments,work_notes" dependent_on_field="comments,work_notes" label="Comments and Work notes" max_length="4000" name="comments_and_work_notes" type="journal_list" use_dependent_field="true"/>
+        <element label="Customer Additional Information" max_length="1000" name="customer_additional_information" type="string"/>
+        <element label="Date of Committee" max_length="40" name="date_of_committee" type="glide_date"/>
+        <element choice="3" label="Decision" max_length="40" name="decision" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Waiting for Committee" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Validated" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Rejected" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Waiting for Information" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="PostPoned" sequence="500" value="5"/>
+            </choice>
+        </element>
+        <element label="Decision Information" max_length="1000" name="decision_information" type="string"/>
+        <element label="Development Description" max_length="1000" name="development_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Epic" max_length="32" name="epic" reference="x_38181_qual_projt_user_story" type="reference"/>
+        <element choice="1" label="Evaluation - Added Value" max_length="40" name="evaluation_added_value" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Red" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Orange" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Yellow" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Green" sequence="400" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" label="Evaluation - Functional" max_length="40" name="evaluation_functional" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Red" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Orange" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Yellow" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Green" sequence="400" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" label="Evaluation - Impact on Deployment" max_length="40" name="evaluation_impact_on_deployment" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Red" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Orange" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Yellow" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Green" sequence="400" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" label="Evaluation - Impact on Maintenance" max_length="40" name="evaluation_impact_on_maintenance" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Red" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Orange" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Yellow" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Green" sequence="400" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" label="Evaluation - Impact on Other Process" max_length="40" name="evaluation_impact_on_other_process" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Red" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Orange" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Yellow" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Green" sequence="400" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" label="Evaluation - Risk Not To Do" max_length="40" name="evaluation_risk_not_to_do" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Red" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Orange" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Yellow" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Green" sequence="400" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" label="Evaluation - To Do Risk" max_length="40" name="evaluation_to_do_risk" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Red" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Orange" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Yellow" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Green" sequence="400" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" label="Evaluation - Workload" max_length="40" name="evaluation_workload" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Red" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Orange" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Yellow" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Green" sequence="400" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" default="story" label="Level" max_length="40" name="level" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Epic" value="epic"/>
+                <element inactive_on_update="false" label="Story" value="story"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Module" max_length="32" name="module" reference="x_38181_qual_projt_module" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="High" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Moderate" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Low" sequence="400" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Process Owner" max_length="32" name="process_owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Sprint" mandatory="true" max_length="32" name="sprint" reference="x_38181_qual_projt_sprint" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Theme" max_length="32" name="theme" reference="x_38181_qual_projt_theme" reference_qual="javascript:&quot;project=&quot;+current.sprint.project" type="reference" use_reference_qualifier="advanced"/>
+        <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Customization" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Settings" sequence="200" value="2"/>
+            </choice>
+        </element>
+        <element label="Use Case" mandatory="true" max_length="4000" name="use_case" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Workshop" max_length="40" name="workshop" reference="x_38181_qual_projt_workshop" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="epic"/>
+        </index>
+        <index name="index4">
+            <element name="module"/>
+        </index>
+        <index name="index5">
+            <element name="process_owner"/>
+        </index>
+        <index name="index6">
+            <element name="sprint"/>
+        </index>
+        <index name="index7">
+            <element name="theme"/>
+        </index>
+        <index name="index8">
+            <element name="workshop"/>
+        </index>
+    </element>
+</database>

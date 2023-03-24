@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fa95707b1bcd4110cd11cb74604bcbd5" extends="x_38181_qual_projt_project" label="Period" max_length="40" name="x_38181_qual_projt_period" type="collection">
+        <element label="End date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Start date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+    </element>
+</database>

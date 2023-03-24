@@ -27,7 +27,7 @@
         <chart_title_y_position>0</chart_title_y_position>
         <chart_width>600</chart_width>
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
-        <color_palette display_value="NY Pinks dark to light (8)">f10f4c5447bfe006e4f1ed2f97fcfe58</color_palette>
+        <color_palette display_value="Sequential - Pinks dark to light (8)">f10f4c5447bfe006e4f1ed2f97fcfe58</color_palette>
         <colors/>
         <column/>
         <compute_percent>aggregate</compute_percent>

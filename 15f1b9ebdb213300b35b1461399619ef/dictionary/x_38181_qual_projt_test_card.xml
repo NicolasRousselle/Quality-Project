@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="8d467d67db613300b35b14613996193b" extends="x_38181_qual_projt_project" label="Test Card" max_length="40" name="x_38181_qual_projt_test_card" type="collection">
+        <element label="Additional comments" max_length="4000" name="comments" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" dependent="comments,work_notes" dependent_on_field="comments,work_notes" label="Comments and Work notes" max_length="4000" name="comments_and_work_notes" type="journal_list" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Issue" max_length="32" name="issue" reference="x_38181_qual_projt_issue" reference_qual="test_cardISEMPTY^EQ" reference_qual_condition="test_cardISEMPTY^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Tester" max_length="32" name="tester" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Theme" max_length="32" name="theme" reference="x_38181_qual_projt_theme" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="User Story" mandatory="true" max_length="32" name="user_story" reference="x_38181_qual_projt_user_story" type="reference"/>
+        <index name="index">
+            <element name="issue"/>
+        </index>
+        <index name="index2">
+            <element name="tester"/>
+        </index>
+        <index name="index3">
+            <element name="theme"/>
+        </index>
+        <index name="index4">
+            <element name="user_story"/>
+        </index>
+    </element>
+</database>
